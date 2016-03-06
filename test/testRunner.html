@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="globalBuyApp">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Test SiBM</title>
+
+	<link rel="shortcut icon" type="image/png" href="lib/jasmine-2.3.4/jasmine_favicon.png">
+  	<link rel="stylesheet" href="lib/jasmine-2.3.4/jasmine.css">
+
+  	<script src="lib/jasmine-2.3.4/jasmine.js"></script>
+  	<script src="lib/jasmine-2.3.4/jasmine-html.js"></script>
+  	<script src="lib/jasmine-2.3.4/boot.js"></script>
+
+	<!-- load lib files -->
+	<script src="../lib/lodash-2.4.1.js"></script>
+	<script src="../lib/syncmod.js"></script>
+	<!-- load js files -->
+	<script src="../utils/Type.js"></script>
+	<script src="../utils/UUID.js"></script>
+	<script src="../modules/logRobot/LogSnapshot.js"></script>
+	<script src="../modules/logRobot/formatter/TypeFormatter.js"></script>
+	<script src="../modules/logRobot/formatter/FuncExecutionFormatter.js"></script>
+	<!-- load app module -->
+
+	<!-- load spec files -->
+	<script type="text/javascript" src="specs/modules/logRobot/formatter/TypeFormatterSpec.js"></script>
+	<script type="text/javascript" src="specs/modules/logRobot/formatter/FuncExecutionFormatterSpec.js"></script>
+</head>
+<body onselectstart="return false">
+</body>
+</html>
